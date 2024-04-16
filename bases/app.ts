@@ -1,11 +1,7 @@
-const msg: string = 'Hola Mundo!';
+(() => {
 
-const hero = {
-    name: 'Ironman',
-    age: 45,
-    powers: ['Volar', 'Lanzar misiles']
-}
+    const a:number = 10;
+    
+    console.log(a);
 
-hero.age = 50;
-
-console.log(hero.age + 1);
+})();
