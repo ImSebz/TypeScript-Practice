@@ -1,5 +1,5 @@
 (() => {
-    const fullName = (firstName?: string, lastName?: string): string => {
+    const fullName = (firstName: string, lastName?: string): string => {
         return `${firstName} ${lastName || 'No lastname'}`;
     }
 
