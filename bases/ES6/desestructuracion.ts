@@ -26,7 +26,6 @@
 
     printAvenger(avengers);
 
-
     const avengerArr = ['Capitan America', 'Thor', 'Hulk'];
 
     const [, thor, hulk] = avengerArr;
@@ -37,6 +36,5 @@
     const [spiderman, poder, estado] = avengerData;
 
     console.log({ spiderman, poder, estado });
-
 
 })();   
