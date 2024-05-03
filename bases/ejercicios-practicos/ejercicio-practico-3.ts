@@ -76,3 +76,6 @@ let mystique: Charles | Apocalipsis;
 
 mystique = charles;
 mystique = apocalipsis;
+
+console.log(mystique);
+console.log('Hola Mundo');
