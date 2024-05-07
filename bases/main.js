@@ -24,10 +24,35 @@ var __rest = (this && this.__rest) || function (s, e) {
     printAvenger(avengers);
     const avengerArr = ['Capitan America', 'Thor', 'Hulk'];
     const [, thor, hulk] = avengerArr;
-    console.log({ thor, hulk });
     const avengerData = ['Spider Man', 1500, true];
     const [spiderman, poder, estado] = avengerData;
-    console.log({ spiderman, poder, estado });
+})();
+const numero = 10;
+if (numero > 0) {
+    const numero = 20;
+}
+let frutas = ['Pera', 'Manzana'];
+let [pera, manzana] = frutas;
+let funcion = () => { };
+(() => {
+    const ironman = {
+        name: 'Ironman',
+        weapon: 'Armored Suit',
+        power: 'Rich'
+    };
+    const thor = {
+        name: 'Thor',
+        weapon: 'Mjolnir',
+        power: 'God'
+    };
+    const hulk = {
+        name: 'Hulk',
+        weapon: 'Strength',
+        power: 'Strong'
+    };
+    const avengers = [ironman, thor, hulk];
+    for (const avenger of avengers) {
+    }
 })();
 (() => {
     const nombre = 'Sebastian';

@@ -29,12 +29,12 @@
     const avengerArr = ['Capitan America', 'Thor', 'Hulk'];
 
     const [, thor, hulk] = avengerArr;
-    console.log({ thor, hulk });
+    // console.log({ thor, hulk });
 
     const avengerData: [string, number, boolean] = ['Spider Man', 1500, true];
 
     const [spiderman, poder, estado] = avengerData;
 
-    console.log({ spiderman, poder, estado });
+    // console.log({ spiderman, poder, estado });
 
 })();   
