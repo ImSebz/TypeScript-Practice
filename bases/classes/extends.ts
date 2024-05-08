@@ -4,7 +4,7 @@
             public name: string,
             public realName: string,
         ) {
-            console.log('Constructor Avengers iniciado');
+            // console.log('Constructor Avengers iniciado');
         }
 
         //Public - Private - Protected
@@ -21,7 +21,7 @@
             public isMutant: boolean,
         ) {
             super(name, realName);
-            console.log('Constructor Xmen iniciado');
+            // console.log('Constructor Xmen iniciado');
         }
 
 
@@ -39,18 +39,18 @@
         }
 
         getFullNameFromXmen() {
-            console.log( super.getFullName() );
+            // console.log( super.getFullName() );
         }
     }
 
     const wolverine = new Xmen('Wolverine', 'Logan', true);
 
-    console.log(wolverine.fullName);
+    // console.log(wolverine.fullName);
 
 
     wolverine.fullName = 'Sebastián'
 
-    console.log(wolverine.fullName);
+    // console.log(wolverine.fullName);
     // wolverine.getFullNameFromXmen();
 
 })();
