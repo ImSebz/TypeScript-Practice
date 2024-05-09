@@ -71,5 +71,26 @@
     wolverine.fullName = 'Sebastián';
 })();
 (() => {
+    class Apocalipsis {
+        constructor(name) {
+            this.name = name;
+        }
+        static callApocalipsis() {
+            if (!Apocalipsis.instance) {
+                Apocalipsis.instance = new Apocalipsis('Soy apocalipsis...');
+            }
+            return Apocalipsis.instance;
+        }
+        changeName(newName) {
+            this.name = newName;
+        }
+    }
+    const apocalipsis = Apocalipsis.callApocalipsis();
+    const apocalipsis2 = Apocalipsis.callApocalipsis();
+    const apocalipsis3 = Apocalipsis.callApocalipsis();
+    apocalipsis.changeName('Soy Xavier ahora...');
+    console.log(apocalipsis);
+    console.log(apocalipsis2);
+    console.log(apocalipsis3);
 })();
 //# sourceMappingURL=main.js.map
