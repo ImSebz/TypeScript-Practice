@@ -34,8 +34,8 @@
     // const apocalipsis2 = new Apocalipsis('Soy apocalipsis2...');
     // const apocalipsis3 = new Apocalipsis('Soy apocalipsis3...');
 
-    console.log(apocalipsis);
-    console.log(apocalipsis2);
-    console.log(apocalipsis3);
+    // console.log(apocalipsis);
+    // console.log(apocalipsis2);
+    // console.log(apocalipsis3);
 
 })();
