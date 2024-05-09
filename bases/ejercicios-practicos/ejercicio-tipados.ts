@@ -39,7 +39,7 @@
   const poder: any = '100';
   // casting
   const largoDelPoder: number = (poder as string).length;
-  console.log(largoDelPoder);
+  // console.log(largoDelPoder);
   
 
 })();
