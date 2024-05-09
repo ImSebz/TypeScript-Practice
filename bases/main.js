@@ -47,4 +47,11 @@
         }
     };
 })();
+(() => {
+    let addNumbersFunction;
+    addNumbersFunction = (a, b) => {
+        return a + b;
+    };
+    console.log(addNumbersFunction(10, 28));
+})();
 //# sourceMappingURL=main.js.map
