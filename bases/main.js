@@ -1,22 +1,24 @@
 "use strict";
-const sumar = (a, b) => {
-    return a + b;
-};
-const contar = (heroes) => {
-    return heroes.length;
-};
-const superHeroes = ["Flash", "Arrow", "Superman", "Linterna Verde"];
-contar(superHeroes);
-const llamarBatman = (llamar = true) => {
-    if (llamar) {
-    }
-};
-const unirheroes = (...personas) => {
-    return personas.join(", ");
-};
-const noHaceNada = (numero, texto, booleano, arreglo) => { };
-let noHaceNadaTampoco;
-noHaceNadaTampoco = noHaceNada;
+(() => {
+    const sumar = (a, b) => {
+        return a + b;
+    };
+    const contar = (heroes) => {
+        return heroes.length;
+    };
+    const superHeroes = ["Flash", "Arrow", "Superman", "Linterna Verde"];
+    contar(superHeroes);
+    const llamarBatman = (llamar = true) => {
+        if (llamar) {
+        }
+    };
+    const unirheroes = (...personas) => {
+        return personas.join(", ");
+    };
+    const noHaceNada = (numero, texto, booleano, arreglo) => { };
+    let noHaceNadaTampoco;
+    noHaceNadaTampoco = noHaceNada;
+})();
 (() => {
     const batimovil = {
         carroceria: "Negra",
@@ -58,33 +60,43 @@ noHaceNadaTampoco = noHaceNada;
     mystique = charles;
     mystique = apocalipsis;
 })();
-const conducirBatimovil = (auto) => {
-    auto.encender = true;
-    auto.velocidadMaxima = 100;
-    auto.acelear();
-};
-const batimovil = {
-    encender: false,
-    velocidadMaxima: 0,
-    acelear() {
-        console.log("...... gogogo!!!");
+(() => {
+    const conducirBatimovil = (auto) => {
+        auto.encender = true;
+        auto.velocidadMaxima = 100;
+        auto.acelear();
+    };
+    const batimovil = {
+        encender: false,
+        velocidadMaxima: 0,
+        acelear() {
+            console.log("...... gogogo!!!");
+        }
+    };
+    const guason = {
+        reir: true,
+        comer: true,
+        llorar: false
+    };
+    const reir = (guason) => {
+        if (guason.reir) {
+            console.log("JAJAJAJA");
+        }
+    };
+    const ciudadGotica = (ciudadanos) => {
+        return ciudadanos.length;
+    };
+    class Persona {
+        imprimirBio() {
+            console.log(`Nombre: ${this.nombre}, Edad: ${this.edad}, Sexo: ${this.sexo}, Estado Civil: ${this.estadoCivil}`);
+        }
     }
-};
-const guason = {
-    reir: true,
-    comer: true,
-    llorar: false
-};
-const reir = (guason) => {
-    if (guason.reir) {
-        console.log("JAJAJAJA");
-    }
-};
-const ciudadGotica = (ciudadanos) => {
-    return ciudadanos.length;
-};
-class Persona {
-}
+    const persona = new Persona();
+    persona.nombre = "Bruce Wayne";
+    persona.edad = 35;
+    persona.sexo = "Masculino";
+    persona.estadoCivil = "Soltero";
+})();
 (() => {
     const batman = 'Bruce';
     const superman = 'Clark';
