@@ -1,7 +1,7 @@
 // import { Hero as SuperHero } from "./classes/Hero";
 // import * as HeroFile from './classes/Hero';
 // import powers from './data/powers';
-import { Hero } from "./classes/Hero";
+import { Hero } from "../src/classes/Hero";
 
 // const Hero = 123;
 // console.log(Hero);

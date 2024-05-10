@@ -1,13 +1,8 @@
-import { printObject } from "./generics/generics";
+import { getPokemon } from "./generics/get-pokemon";
 
-printObject(123);
-printObject("Hello");
-printObject({ key: "value" });
-printObject([1, 2, 3]);
-printObject(true);
-printObject(null);
-printObject(undefined);
+let pokemonId = 1000;
 
-
-
-
+getPokemon(pokemonId)
+    .then(pokemon => console.log(pokemon.sprites.front_default, pokemon))
+    .catch(error => console.error(error))
+    .finally(() => console.log('Pokemon Catched!'));
